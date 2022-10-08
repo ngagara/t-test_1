@@ -1,0 +1,54 @@
+:root {
+    /* Текст */
+    --font: 'Open Sans', sans-serif;
+    --font_style: normal;
+
+    /* Цвет текста*/
+    --text_primary_accent: #343434;
+    --text_high_accent: #000000;
+    --text_middle_accent: #404040;
+    --text_low_accent: #4B4B4B;
+
+    /* Цвет бэкграунда страницы */
+    --main_bg: #FFFFFF;
+
+    /* Цвет элементов */
+    /* Цвет карточки */
+    --el_bg_card_first: #FFFFFF;
+    --el_border_card_first: #828282;
+    --el_border_card_second: #8E8E8E;
+
+    /* Цвет лейбла карточки */
+    --el_text_label-card_first: #3E3E3E;
+    --el_text_label-card_second: #FFFFFF;
+    --el_text_label-card_third: #323232;
+
+    --el_bg_label-card_yellow: #FED74B;
+    --el_bg_label-card_purple: #7553FF;
+    --el_bg_label-card_blue: #099CE8;
+
+    /* Цвет иконоки времени */
+    --el_text_time_first: #343434;
+    --el_bg_time_first: #D9E8FF;
+
+    /* Цвет иконоки времени при ховере*/
+    --el_text_hover_time_first: #FFFFFF;
+    --el_bg_hover_time_first: #6BA6FF;
+    --el_box-shadow_hover_time_first: #000000;
+
+    /* Цвет кнопки карточки*/
+    --el_text_button_first: #404040;
+    --el_bg_button_first: #FED74B;
+    --el_bg_button_second: #FFD83C;
+    --el_border_button_first: #CBA500;
+    --el_box-shadow_hover_button_first: #000000;
+    --el_text_hover_button_first: #000000;
+
+    /* Цвет иконок */
+    /* Цвет иконки часов */
+    --icon_color_clock-icon_first: #9E9E9E;
+    --el_color_clock-icon_first: #9E9E9E;
+
+    /* Цвет стрелки времени */
+    --icon_color_arrow_first: #FECF01;
+}

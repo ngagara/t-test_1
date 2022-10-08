@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="./assets/normalize.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Тестовое задание</title>
+</head>
+
+<body>
+
+    <main class="root">
+        <section class="cards">
+            <article class="card" id="1">
+
+                <figure class="card__figure">
+                    <img class="card__image" src="./images/spb.jpg" alt="Фотография Кремля">
+                    <figcaption class="card__caption card__caption_purple">НОВИНКА</figcaption>
+                </figure>
+
+                <div class="card__content">
+
+                    <div class="clock card__clock">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#a)" fill="none">
+                                <path
+                                    d="M8 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8Zm0 14.298A6.305 6.305 0 0 1 1.702 8 6.305 6.305 0 0 1 8 1.702 6.305 6.305 0 0 1 14.298 8 6.305 6.305 0 0 1 8 14.298Z" />
+                                <path
+                                    d="M12.17 7.753H8.573V3.43a.659.659 0 0 0-1.317 0v4.982c0 .363.295.658.658.658h4.254a.659.659 0 0 0 0-1.317Z" />
+                            </g>
+                            <defs>
+                                <clipPath id="a">
+                                    <path fill="none" d="M0 0h16v16H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p lass="clock__text"><span>2</span> часа</p>
+                    </div>
+
+                    <h3 class="card__card-title card-title">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками
+                        Hop on Hop Off
+                        2019
+                    </h3>
+
+                    <ul class="card__checklist checklist">
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Билет на целый день</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Неограниченное число катаний</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>6 остановок у главных достопримечательностей</p>
+                        </li>
+                        <li class="checklist__mark checklist__departure-time">
+                            <ul class="checklist__container">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                        fill="none" />
+                                </svg>
+                                <p>Ближайший рейс сегодня:</p>
+                            </ul>
+                        </li>
+                    </ul>
+                    </ul>
+
+                    <div class="card__footer">
+
+                        <div class="card__price price">
+                            <div class="price__price-container">
+                                <p class="price__text">2900</p>
+                                <svg width="19" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.715 0H4.332C3.57 0 2.953.644 2.953 1.44v10.892H1.38C.617 12.332 0 12.976 0 13.77c0 .794.617 1.439 1.379 1.439h1.574v3.287H1.38c-.762 0-1.379.645-1.379 1.44 0 .794.617 1.439 1.379 1.439h1.574v3.185c0 .795.617 1.439 1.379 1.439.761 0 1.378-.644 1.378-1.44v-3.184h6.005c.761 0 1.379-.645 1.379-1.44 0-.794-.618-1.439-1.38-1.439H5.71V15.21h6.005c4.017 0 7.285-3.412 7.285-7.605C19 3.308 15.647 0 11.715 0Zm0 12.332H5.71V2.878h6.005c2.482 0 4.528 2.09 4.528 4.727 0 2.606-2.031 4.727-4.528 4.727Z"
+                                        fill="#000" />
+                                </svg>
+                            </div>
+                            <div class="price__second"><span>1200</span> <svg fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#a)">
+                                        <path
+                                            d="M3.077 10.09v-.35H.896v-.936h2.181V7.1H.896V5.984h2.181V.35h4.517c1.059 0 1.895.32 2.54.942.643.62.97 1.42.97 2.432 0 1.013-.327 1.813-.97 2.433-.645.622-1.481.942-2.54.942H4.346v1.705h4.577v.937H4.346V11.65H3.077v-1.56Zm-.273 1.833A.265.265 0 0 0 3 12h1.423a.269.269 0 0 0 .273-.273V10.091l-1.892 1.832ZM.818 8.454a.265.265 0 0 0-.196.077V5.714a.27.27 0 0 0-.076.192v1.27c0 .08.025.145.076.196a.265.265 0 0 0 .196.077H2.728v1.005H.817Zm3.878-6.988h-.35v4.518h3.077c.675 0 1.253-.2 1.699-.626.447-.425.663-.982.663-1.634 0-.651-.216-1.207-.663-1.633-.446-.426-1.024-.625-1.699-.625H4.696Z"
+                                            fill="#000" stroke="#fff" stroke-width=".7" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="a">
+                                            <path fill="#fff" d="M0 0h12v12H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg> на причале</div>
+                        </div>
+
+                        <button class="card__button button" type="submit">Подробнее</button>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card" id="2">
+
+                <figure class="card__figure">
+                    <img class="card__image" src="./images/moscow.jpg" alt="Фотография Кремля">
+                    <figcaption class="card__caption card__caption_blue">НОВИНКА</figcaption>
+                </figure>
+
+                <div class="card__content">
+
+                    <div class="clock card__clock">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#a)" fill="none">
+                                <path
+                                    d="M8 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8Zm0 14.298A6.305 6.305 0 0 1 1.702 8 6.305 6.305 0 0 1 8 1.702 6.305 6.305 0 0 1 14.298 8 6.305 6.305 0 0 1 8 14.298Z" />
+                                <path
+                                    d="M12.17 7.753H8.573V3.43a.659.659 0 0 0-1.317 0v4.982c0 .363.295.658.658.658h4.254a.659.659 0 0 0 0-1.317Z" />
+                            </g>
+                            <defs>
+                                <clipPath id="a">
+                                    <path fill="none" d="M0 0h16v16H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p lass="clock__text"><span>2</span> часа</p>
+                    </div>
+
+                    <h3 class="card__card-title card-title">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками
+                        Hop on Hop Off
+                        2019
+                    </h3>
+
+                    <ul class="card__checklist checklist">
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Билет на целый день</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Неограниченное число катаний</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>6 остановок у главных достопримечательностей</p>
+                        </li>
+                        <li class="checklist__mark checklist__departure-time">
+                            <ul class="checklist__container">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                        fill="none" />
+                                </svg>
+                                <p>Ближайший рейс сегодня:</p>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <div class="card__footer">
+
+                        <div class="card__price price">
+                            <div class="price__price-container">
+                                <p class="price__text">2900</p>
+                                <svg width="19" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.715 0H4.332C3.57 0 2.953.644 2.953 1.44v10.892H1.38C.617 12.332 0 12.976 0 13.77c0 .794.617 1.439 1.379 1.439h1.574v3.287H1.38c-.762 0-1.379.645-1.379 1.44 0 .794.617 1.439 1.379 1.439h1.574v3.185c0 .795.617 1.439 1.379 1.439.761 0 1.378-.644 1.378-1.44v-3.184h6.005c.761 0 1.379-.645 1.379-1.44 0-.794-.618-1.439-1.38-1.439H5.71V15.21h6.005c4.017 0 7.285-3.412 7.285-7.605C19 3.308 15.647 0 11.715 0Zm0 12.332H5.71V2.878h6.005c2.482 0 4.528 2.09 4.528 4.727 0 2.606-2.031 4.727-4.528 4.727Z"
+                                        fill="#000" />
+                                </svg>
+                            </div>
+                            <!-- <p class="price__second"><span>1200</span> р на причале</p> -->
+                        </div>
+
+                        <button class="card__button button" type="submit">Подробнее</button>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="card" id="3">
+
+                <figure class="card__figure">
+                    <img class="card__image" src="./images/moscow.jpg" alt="Фотография Кремля">
+                    <figcaption class="card__caption card__caption_yellow">КРУГЛЫЙ ГОД</figcaption>
+                </figure>
+
+                <div class="card__content">
+
+                    <div class="clock card__clock">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#a)" fill="none">
+                                <path
+                                    d="M8 0C3.589 0 0 3.589 0 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8Zm0 14.298A6.305 6.305 0 0 1 1.702 8 6.305 6.305 0 0 1 8 1.702 6.305 6.305 0 0 1 14.298 8 6.305 6.305 0 0 1 8 14.298Z" />
+                                <path
+                                    d="M12.17 7.753H8.573V3.43a.659.659 0 0 0-1.317 0v4.982c0 .363.295.658.658.658h4.254a.659.659 0 0 0 0-1.317Z" />
+                            </g>
+                            <defs>
+                                <clipPath id="a">
+                                    <path fill="none" d="M0 0h16v16H0z" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p lass="clock__text"><span>2</span> часа</p>
+                    </div>
+
+                    <h3 class="card__card-title card-title">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками
+                        Hop on Hop Off
+                        2019
+                    </h3>
+
+                    <ul class="card__checklist checklist">
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Билет на целый день</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>Неограниченное число катаний</p>
+                        </li>
+                        <li class="checklist__mark">
+                            <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                    fill="none" />
+                            </svg>
+                            <p>6 остановок у главных достопримечательностей</p>
+                        </li>
+                        <li class="checklist__mark checklist__departure-time">
+                            <ul class="checklist__container">
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.243 13.42a1.858 1.858 0 0 1-2.628 0L.545 9.35a1.858 1.858 0 0 1 2.627-2.628l2.425 2.425a.47.47 0 0 0 .664 0l6.567-6.567a1.858 1.858 0 0 1 2.628 2.627L7.243 13.42Z"
+                                        fill="none" />
+                                </svg>
+                                <p>Ближайший рейс сегодня:</p>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    </ul>
+
+                    <div class="card__footer">
+
+                        <div class="card__price price">
+                            <div class="price__price-container">
+                                <p class="price__text">2900</p>
+                                <svg width="19" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.715 0H4.332C3.57 0 2.953.644 2.953 1.44v10.892H1.38C.617 12.332 0 12.976 0 13.77c0 .794.617 1.439 1.379 1.439h1.574v3.287H1.38c-.762 0-1.379.645-1.379 1.44 0 .794.617 1.439 1.379 1.439h1.574v3.185c0 .795.617 1.439 1.379 1.439.761 0 1.378-.644 1.378-1.44v-3.184h6.005c.761 0 1.379-.645 1.379-1.44 0-.794-.618-1.439-1.38-1.439H5.71V15.21h6.005c4.017 0 7.285-3.412 7.285-7.605C19 3.308 15.647 0 11.715 0Zm0 12.332H5.71V2.878h6.005c2.482 0 4.528 2.09 4.528 4.727 0 2.606-2.031 4.727-4.528 4.727Z"
+                                        fill="#000" />
+                                </svg>
+                            </div>
+                            <div class="price__second"><span>1200</span> <svg fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#a)">
+                                        <path
+                                            d="M3.077 10.09v-.35H.896v-.936h2.181V7.1H.896V5.984h2.181V.35h4.517c1.059 0 1.895.32 2.54.942.643.62.97 1.42.97 2.432 0 1.013-.327 1.813-.97 2.433-.645.622-1.481.942-2.54.942H4.346v1.705h4.577v.937H4.346V11.65H3.077v-1.56Zm-.273 1.833A.265.265 0 0 0 3 12h1.423a.269.269 0 0 0 .273-.273V10.091l-1.892 1.832ZM.818 8.454a.265.265 0 0 0-.196.077V5.714a.27.27 0 0 0-.076.192v1.27c0 .08.025.145.076.196a.265.265 0 0 0 .196.077H2.728v1.005H.817Zm3.878-6.988h-.35v4.518h3.077c.675 0 1.253-.2 1.699-.626.447-.425.663-.982.663-1.634 0-.651-.216-1.207-.663-1.633-.446-.426-1.024-.625-1.699-.625H4.696Z"
+                                            fill="#000" stroke="#fff" stroke-width=".7" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="a">
+                                            <path fill="#fff" d="M0 0h12v12H0z" />
+                                        </clipPath>
+                                    </defs>
+                                </svg> на причале</div>
+                        </div>
+
+                        <button class="card__button button" type="submit">Подробнее</button>
+
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
