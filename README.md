@@ -14,13 +14,12 @@
 
 1.2 
 
-<!-- <div class="container">
+<div class="container">
   <table>...</table>
 </div> -->
 
-<!-- @media {
+ @media {
   .container {
      overflow: scroll
   } 
 }
- -->
